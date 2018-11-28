@@ -1,0 +1,71 @@
+/* .texture {
+    width: 1440px;
+    height: 54px;
+    opacity: 0.3;
+    background-color: rgba(255, 255, 255, 0.5);
+} */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.Topbar {
+    width: 1440px;
+    height: 54px;
+    object-fit: contain;
+    box-shadow: 0 2px 6px 0 rgba(7, 61, 125, 0.3);
+    background-image: linear-gradient(to left, #ff4536, #073c7e);
+}
+
+.btn {
+    width: 66px;
+    height: 16px;
+    opacity: 0.6;
+    font-family: ProximaNova;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline;
+}
+
+.Logo {
+    width: 97px;
+    height: 24px;
+    object-fit: contain;
+    position: absolute;
+    top: 15px;
+    left: 60px;
+}
+
+.btn-list {
+    position: absolute;
+    left: 237px;
+    top: 19px;
+}
+
+.avatar {
+    position: absolute;
+    top: 7px;
+    right: 62px;
+}
+
+.Active-bg {
+    width: 98px;
+    height: 54px;
+    opacity: 0.3;
+    background-image: linear-gradient(to top, #ff4536 2%, rgba(7, 60, 126, 0));
+}
+
+.pad {
+    padding: 19px 25px;
+}
