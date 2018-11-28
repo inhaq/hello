@@ -8,6 +8,9 @@
     padding: 0;
     margin: 0;
 }
+a {
+    text-decoration: none;
+}
 
 .Topbar {
     width: 1440px;
@@ -68,4 +71,38 @@
 
 .pad {
     padding: 19px 25px;
+}
+.form {
+    position: absolute;
+    top: 90px;
+    left: 740px;
+   
+}
+.arrow > a,p {
+    position: absolute;
+    top: 91px;
+}
+.arrow > p {
+    left: 85px;
+    color: #3277cc;
+}
+.arrow > a {
+    left: 61px;
+}
+input{
+    border-radius: 2px;
+    width: 250px;
+    height: 24px;
+}
+::placeholder {
+    color:  rgb(189, 186, 186);;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: rgb(189, 186, 186);
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+   color: rgb(189, 186, 186);;
 }
