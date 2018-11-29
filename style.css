@@ -241,7 +241,7 @@ input {
 }
 
 .btp-search {
-    padding: 30px 0;
+    padding: 30px 0 20px;
 }
 
 .Uzers {
@@ -269,7 +269,6 @@ input {
 }
 
 .Rectangle {
-    width: 1320px;
     height: 700px;
     border-radius: 20px;
     box-shadow: 0 2px 4px 0 rgba(7, 61, 125, 0.1);
@@ -352,189 +351,196 @@ input {
     color: #ff4536;
     font-weight: bold;
 }
+
 .RectangleTable {
-	width: 1280px;
-	height: 220px;
-	border-radius: 20px;
-	box-shadow: 0 2px 4px 0 rgba(7, 61, 125, 0.1);
-	background-color:rgba(7, 61, 125, 0.1);
-	position: relative;
+    height: 220px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px 0 rgba(7, 61, 125, 0.1);
+    background-color: rgba(7, 61, 125, 0.1);
     object-fit: contain;
-    top: 50px;
-    left:35px;
 }
 
 .Total-Hours {
-	width: 72px;
-	height: 34px;
-	font-family: ProximaNova;
-	font-size: 14px;
-	font-weight: normal;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: 2.43;
-	letter-spacing: normal;
-	color: #6782a4;
+    width: 72px;
+    height: 34px;
+    font-family: ProximaNova;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.43;
+    letter-spacing: normal;
+    color: #6782a4;
 }
 
 .Numbers {
-	width: 87px;
-	height: 34px;
-	font-family: ProximaNova;
-	font-size: 28px;
-	font-weight: normal;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: 1.21;
-	letter-spacing: normal;
-	color: #459ef6;
+    width: 87px;
+    height: 34px;
+    font-family: ProximaNova;
+    font-size: 28px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    color: #459ef6;
 }
 
 .Billable-Hours {
-	width: 98px;
-	height: 20px;
-	font-family: ProximaNova;
-	font-size: 16px;
-	font-weight: normal;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	color: #6782a4;
-	position: relative;
-	left: -18px;
-	top:20px;
+    width: 98px;
+    height: 20px;
+    font-family: ProximaNova;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #6782a4;
+    position: relative;
+    left: -18px;
+    top: 20px;
 }
 
 .Non-Billable-Hours {
-	width: 132px;
-	height: 20px;
-	font-family: ProximaNova;
-	font-size: 16px;
-	font-weight: normal;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	color: #6782a4;
-	left: -18px;
-	top:20px;
-
+    width: 132px;
+    height: 20px;
+    font-family: ProximaNova;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #6782a4;
+    left: -18px;
+    top: 20px;
 }
 
 .Line {
-	width: 2px;
-	height: 119.5px;
-	background-color: #c4d2dd;
-	float: right;
+    width: 2px;
+    height: 119.5px;
+    background-color: #c4d2dd;
+    float: right;
 }
 
 .Nums {
-	width: 52px;
-	height: 20px;
-	font-family: ProximaNova;
-	font-size: 16px;
-	font-weight: 600;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	text-align: right;
-	color: #073d7d;
-	position: relative;
-	top:20px;
+    width: 52px;
+    height: 20px;
+    font-family: ProximaNova;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #073d7d;
+    position: relative;
+    top: 20px;
 }
 
 .Nums2 {
-
-	width: 28px;
-	height: 20px;
-	font-family: ProximaNova;
-	font-size: 16px;
-	font-weight: 600;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	text-align: right;
-	color: #073d7d;
-	position: relative;
-	top:20px;
+    width: 28px;
+    height: 20px;
+    font-family: ProximaNova;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #073d7d;
+    position: relative;
+    top: 20px;
 }
 
 .cont {
-	position: relative;
-	left: 40px;
+    position: relative;
+    left: 40px;
 }
+
 .Remaining-Budget-22 {
-  width: 152px;
-  height: 34px;
-  font-family: ProximaNova;
-  font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 2.43;
-  letter-spacing: normal;
-  color: #6782a4;
+    width: 152px;
+    height: 34px;
+    font-family: ProximaNova;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.43;
+    letter-spacing: normal;
+    color: #6782a4;
 }
+
 .text-style-1 {
-  font-weight: 600;
-  color: #ff4536;
+    font-weight: 600;
+    color: #ff4536;
 }
+
 .Rectangle-9 {
- width: 181px;
-  height: 6px;
-  border-radius: 5.5px;
-  background-color: #ff4536;
-	top:6px;
-	position: relative;
+    width: 181px;
+    height: 6px;
+    border-radius: 5.5px;
+    background-color: #ff4536;
+    top: 6px;
+    position: relative;
 }
+
 .Rectangle-91 {
-  width: 232px;
-  height: 6px;
-  border-radius: 5.5px;
-  background-color: #dee6ec;
+    width: 232px;
+    height: 6px;
+    border-radius: 5.5px;
+    background-color: #dee6ec;
 }
+
 .CostsButton {
-  width: 36px;
-  height: 36px;
-  border-radius: 100px;
-  background-color: #ffffff;
+    width: 36px;
+    height: 36px;
+    border-radius: 100px;
+    background-color: #ffffff;
 }
+
 .InvoiceButton {
-  width: 124px;
-  height: 36px;
-  border-radius: 4px;
-  background-color: #ffffff;
-	position: relative;
-	top:20px;
-	left:30px;
+    width: 124px;
+    height: 36px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    position: relative;
+    top: 20px;
+    left: 30px;
 }
+
 .Page-1 {
-  width: 12px;
-  height: 12px;
-  background-color: #459ef6;
-	
+    width: 12px;
+    height: 12px;
+    background-color: #459ef6;
+
 }
+
 .New-Invoice {
-  width: 72px;
-  height: 16px;
-  font-family: ProximaNova;
-  font-size: 13px;
-  font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #073d7d;
-  position: relative;
-	left: 5px;
+    width: 72px;
+    height: 16px;
+    font-family: ProximaNova;
+    font-size: 13px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #073d7d;
+    position: relative;
+    left: 5px;
 }
+
 .Chart {
-    width: 1250px;
     height: 343px;
     object-fit: contain;
-    position: relative;
-    top: 50px;
-  }
+    width: 100%;
+}
+
+.chart-pad {
+    margin-left: -10px;
+    padding: 20px 0;
+}
