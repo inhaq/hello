@@ -78,17 +78,11 @@ a {
     left: 740px;
    
 }
-.arrow > a,p {
-    position: absolute;
-    top: 91px;
-}
-.arrow > p {
-    left: 85px;
-    color: #3277cc;
-}
-.arrow > a {
-    left: 61px;
-}
+.Arrow {
+    width: 14px;
+    height: 12.3px;
+    background-color: #459ef6;
+  }
 input{
     border-radius: 2px;
     width: 250px;
@@ -105,4 +99,7 @@ input{
 
 ::-ms-input-placeholder { /* Microsoft Edge */
    color: rgb(189, 186, 186);;
+}
+.user{
+
 }
