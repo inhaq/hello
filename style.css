@@ -176,8 +176,70 @@ input {
     color: #459ef6;
 }
 
-.project-header {
-    position: relative;
-    top: 85px;
-    left: 60px;
+.Arrows-icon {
+    width: 8px;
+    height: 13px;
+    object-fit: contain;
+    margin-left: 15px;
+
+}
+
+.Edit-icon {
+    width: 14px;
+    height: 14px;
+    object-fit: contain;
+    margin-right: 5px;
+}
+
+.btn-action {
+    width: 101px;
+    height: 36px;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+.Actions {
+    width: 41px;
+    height: 15px;
+    font-family: ProximaNova;
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #6782a4;
+}
+
+.btn-edit {
+    width: 120px;
+    height: 36px;
+    border-radius: 4px;
+    background-color: #073d7d;
+}
+
+.Edit-Project {
+    width: 62px;
+    height: 15px;
+    font-family: ProximaNova;
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.fa-search {
+    position: absolute;
+    right: 40px;
+    top: 12px;
+    width: 18px;
+    font-size: 18px !important;
+    color: #c4d2dd;
+}
+
+.btp-search {
+    padding: 30px 0;
 }
