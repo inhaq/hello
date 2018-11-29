@@ -5,73 +5,73 @@
     background-color: rgba(255, 255, 255, 0.5);
 } */
 * {
-	padding: 0;
-	margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 a {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 .Topbar {
-	width: 1440px;
-	height: 54px;
-	object-fit: contain;
-	box-shadow: 0 2px 6px 0 rgba(7, 61, 125, 0.3);
-	background-image: linear-gradient(to left, #ff4536, #073c7e);
+    width: 100vw;
+    height: 54px;
+    object-fit: contain;
+    box-shadow: 0 2px 6px 0 rgba(7, 61, 125, 0.3);
+    background-image: linear-gradient(to left, #ff4536, #073c7e);
 }
 
 .btn1 {
-	width: 66px;
-	height: 16px;
-	opacity: 0.6;
-	font-family: ProximaNova;
-	font-size: 13px;
-	font-weight: normal;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	color: #ffffff;
-	text-decoration: none;
+    width: 66px;
+    height: 16px;
+    opacity: 0.6;
+    font-family: ProximaNova;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    text-decoration: none;
 
 }
 
 ul li {
-	list-style: none;
-	display: inline;
+    list-style: none;
+    display: inline;
 }
 
 .Logo {
-	width: 97px;
-	height: 24px;
-	object-fit: contain;
-	position: absolute;
-	top: 15px;
-	left: 60px;
+    width: 97px;
+    height: 24px;
+    object-fit: contain;
+    position: absolute;
+    top: 15px;
+    left: 60px;
 }
 
 .btn-list {
-	position: absolute;
-	left: 237px;
-	top: 15px;
+    position: absolute;
+    left: 237px;
+    top: 15px;
 }
 
 .avatar {
-	position: absolute;
-	top: 7px;
-	right: 62px;
+    position: absolute;
+    top: 7px;
+    right: 62px;
 }
 
 .Active-bg {
-	width: 98px;
-	height: 54px;
-	opacity: 0.3;
-	background-image: linear-gradient(to top, #ff4536 2%, rgba(7, 60, 126, 0));
+    width: 98px;
+    height: 54px;
+    opacity: 0.3;
+    background-image: linear-gradient(to top, #ff4536 2%, rgba(7, 60, 126, 0));
 }
 
 .pad {
-	padding: 19px 25px;
+    padding: 19px 25px;
 }
 
 /* .form {
@@ -81,250 +81,273 @@ ul li {
 } */
 
 input {
-	width: 500px;
-	height: 44px;
-	border-radius: 4px;
-	background-color: #ffffff;
-	padding: 0px 25px;
+    width: 500px;
+    height: 44px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    padding: 0px 25px;
 }
 
 ::-webkit-input-placeholder {
-	width: 213px;
-	height: 18px;
-	opacity: 0.49;
-	font-family: ProximaNova;
-	font-size: 15px;
-	font-weight: normal;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	color: #6782a4;
+    width: 213px;
+    height: 18px;
+    opacity: 0.49;
+    font-family: ProximaNova;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #6782a4;
 }
 
 .Arrow {
-	width: 14px;
-	height: 12.3px;
-	background-color: #459ef6;
+    width: 14px;
+    height: 12.3px;
+    background-color: #459ef6;
 }
 
 .arrow {
-	position: absolute;
-	left: 61px;
-	top: 35px;
+    position: absolute;
+    left: 61px;
+    top: 35px;
 }
 
 .form {
-	position: absolute;
-	right: 200px;
-	top: 23px;
+    position: absolute;
+    right: 200px;
+    top: 23px;
 }
 
 .Search-icon {
-	width: 18px;
-	height: 18px;
-	color: #c4d2dd;
-	position: absolute;
-	top: 13px;
-	right: 25px;
-	font-size: 20px;
+    width: 18px;
+    height: 18px;
+    color: #c4d2dd;
+    position: absolute;
+    top: 13px;
+    right: 25px;
+    font-size: 20px;
 }
 
 .Time-icon {
-	width: 12px;
-	height: 12px;
-	opacity: 0.6;
+    width: 12px;
+    height: 12px;
+    opacity: 0.6;
 }
 
 .-Jan-2017 {
-	width: 68px;
-	height: 16px;
-	opacity: 0.6;
-	font-family: ProximaNova;
-	font-size: 13px;
-	font-weight: 600;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	color: #6782a4;
+    width: 68px;
+    height: 16px;
+    opacity: 0.6;
+    font-family: ProximaNova;
+    font-size: 13px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #6782a4;
 }
 
 .Bg {
-	width: 1440px;
-	height: 1475px;
-	background-image: linear-gradient(to top, #ffffff, #edf2f6);
+    height: 1475px;
+    background-image: linear-gradient(to top, #ffffff, #edf2f6);
 }
 
 .Back-to-Projects {
-	width: 87px;
-	height: 15px;
-	font-family: ProximaNova;
-	font-size: 12px;
-	font-weight: 600;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	color: #459ef6;
-	padding-left: 10px;
+    width: 87px;
+    height: 15px;
+    font-family: ProximaNova;
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #459ef6;
+    padding-left: 10px;
 }
 
 .Arrow-left {
-	width: 14px;
-	height: 12.3px;
-	color: #459ef6;
+    width: 14px;
+    height: 12.3px;
+    color: #459ef6;
 }
 
 .Arrows-icon {
-	width: 8px;
-	height: 13px;
-	object-fit: contain;
-	margin-left: 15px;
+    width: 8px;
+    height: 13px;
+    object-fit: contain;
+    margin-left: 15px;
 
 }
 
 .Edit-icon {
-	width: 14px;
-	height: 14px;
-	object-fit: contain;
-	margin-right: 5px;
+    width: 14px;
+    height: 14px;
+    object-fit: contain;
+    margin-right: 5px;
 }
 
 .btn-action {
-	width: 101px;
-	height: 36px;
-	border-radius: 4px;
-	background-color: #ffffff;
+    width: 101px;
+    height: 36px;
+    border-radius: 4px;
+    background-color: #ffffff;
 }
 
 .Actions {
-	width: 41px;
-	height: 15px;
-	font-family: ProximaNova;
-	font-size: 12px;
-	font-weight: 600;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	color: #6782a4;
+    width: 41px;
+    height: 15px;
+    font-family: ProximaNova;
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #6782a4;
 }
 
 .btn-edit {
-	width: 120px;
-	height: 36px;
-	border-radius: 4px;
-	background-color: #073d7d;
+    width: 120px;
+    height: 36px;
+    border-radius: 4px;
+    background-color: #073d7d;
+    margin-left: 10px;
 }
 
 .Edit-Project {
-	width: 62px;
-	height: 15px;
-	font-family: ProximaNova;
-	font-size: 12px;
-	font-weight: 600;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	color: #ffffff;
+    width: 62px;
+    height: 15px;
+    font-family: ProximaNova;
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
 }
 
 .fa-search {
-	position: absolute;
-	right: 40px;
-	top: 12px;
-	width: 18px;
-	font-size: 18px !important;
-	color: #c4d2dd;
+    position: absolute;
+    right: 40px;
+    top: 12px;
+    width: 18px;
+    font-size: 18px !important;
+    color: #c4d2dd;
 }
 
 .btp-search {
-	padding: 30px 0;
+    padding: 30px 0;
 }
 
 .Uzers {
-	width: 52px;
-	height: 18px;
-	font-family: ProximaNova;
-	font-size: 15px;
-	font-weight: 600;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: 1.2;
-	letter-spacing: 1px;
-	color: #ff4536;
+    height: 18px;
+    font-family: ProximaNova;
+    font-size: 15px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    color: #ff4536;
 }
 
 .Website-redesign-b {
-	width: 523px;
-	height: 38px;
-	font-family: ProximaNova;
-	font-size: 32px;
-	font-weight: 300;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	color: #073d7d;
+    height: 38px;
+    font-family: ProximaNova;
+    font-size: 32px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #073d7d;
 }
 
 .Rectangle {
-	width: 1320px;
-	height: 700px;
-	border-radius: 20px;
-	box-shadow: 0 2px 4px 0 rgba(7, 61, 125, 0.1);
-	background-color: #ffffff;
+    height: 700px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px 0 rgba(7, 61, 125, 0.1);
+    background-color: #ffffff;
+    padding: 25px 0;
 }
 
 .Rectangle-7 {
-	width: 305px;
-	height: 36px;
-	border-radius: 4px;
-	background-color: #f2f4ff;
+    width: 305px;
+    height: 36px;
+    border-radius: 4px;
+    background-color: #f2f4ff;
 }
 
 .Button {
-	width: 155px;
-	height: 36px;
-	border-radius: 4px;
-	background-color: #ff4536;
-	float: right;
+    width: 155px;
+    height: 36px;
+    border-radius: 4px;
+    background-color: #ff4536;
 }
 
 .Icon {
-	width: 16px;
-	height: 13px;
-	object-fit: contain;
+    width: 16px;
+    height: 13px;
+    object-fit: contain;
 }
 
 .Project-Progress {
-	width: 120px;
-	height: 15px;
-	font-family: ProximaNova;
-	font-size: 12px;
-	font-weight: 600;
-	font-style: normal;
-	font-stretch: normal;
-	line-height: normal;
-	letter-spacing: normal;
-	color: #ffffff;
-	float:left;
-	padding-top: 5px;
-	padding-right: 25px;
-}
-.Hours-Per-Week {
-  width: 88px;
-  height: 15px;
-  opacity: 0.6;
-  font-family: ProximaNova;
-  font-size: 12px;
-  font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #6782a4;
+    width: 120px;
+    height: 15px;
+    font-family: ProximaNova;
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    padding-top: 5px;
 }
 
+.Hours-Per-Week {
+    width: 88px;
+    height: 15px;
+    opacity: 0.6;
+    font-family: ProximaNova;
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #6782a4;
+}
+
+.container {
+    max-width: 90% !important;
+}
+
+.mid-vertical {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.Rectangle-7 {
+    height: 36px;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+.buttonArrow {
+    width: 36px;
+    height: 36px;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+.fa-angle-right {
+    color: #ff4536;
+    font-weight: bold;
+}
