@@ -8,6 +8,7 @@
     padding: 0;
     margin: 0;
 }
+
 a {
     text-decoration: none;
 }
@@ -20,7 +21,7 @@ a {
     background-image: linear-gradient(to left, #ff4536, #073c7e);
 }
 
-.btn {
+.btn1 {
     width: 66px;
     height: 16px;
     opacity: 0.6;
@@ -36,7 +37,7 @@ a {
 
 }
 
-.menu ul li {
+ul li {
     list-style: none;
     display: inline;
 }
@@ -53,7 +54,7 @@ a {
 .btn-list {
     position: absolute;
     left: 237px;
-    top: 19px;
+    top: 15px;
 }
 
 .avatar {
@@ -72,34 +73,115 @@ a {
 .pad {
     padding: 19px 25px;
 }
-.form {
+
+/* .form {
     position: absolute;
     top: 90px;
     left: 740px;
-   
+} */
+
+input {
+    width: 500px;
+    height: 44px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    padding: 0px 25px;
 }
+
+::-webkit-input-placeholder {
+    width: 213px;
+    height: 18px;
+    opacity: 0.49;
+    font-family: ProximaNova;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #6782a4;
+}
+
 .Arrow {
     width: 14px;
     height: 12.3px;
     background-color: #459ef6;
-  }
-input{
-    border-radius: 2px;
-    width: 250px;
-    height: 24px;
-}
-::placeholder {
-    color:  rgb(189, 186, 186);;
-    opacity: 1; /* Firefox */
 }
 
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
-   color: rgb(189, 186, 186);
+.arrow {
+    position: absolute;
+    left: 61px;
+    top: 35px;
 }
 
-::-ms-input-placeholder { /* Microsoft Edge */
-   color: rgb(189, 186, 186);;
+.form {
+    position: absolute;
+    right: 200px;
+    top: 23px;
 }
-.user{
 
+.Search-icon {
+    width: 18px;
+    height: 18px;
+    color: #c4d2dd;
+    position: absolute;
+    top: 13px;
+    right: 25px;
+    font-size: 20px;
+}
+
+.Time-icon {
+    width: 12px;
+    height: 12px;
+    opacity: 0.6;
+}
+
+.-Jan-2017 {
+    width: 68px;
+    height: 16px;
+    opacity: 0.6;
+    font-family: ProximaNova;
+    font-size: 13px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #6782a4;
+}
+
+.Bg {
+    width: 1440px;
+    height: 1475px;
+    background-image: linear-gradient(to top, #ffffff, #edf2f6);
+}
+
+.Back-to-Projects {
+    width: 87px;
+    height: 15px;
+    font-family: ProximaNova;
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #459ef6;
+    padding-left: 10px;
+}
+
+.Arrow-left {
+    width: 14px;
+    height: 12.3px;
+    color: #459ef6;
+}
+
+.search {
+    position: relative;
+}
+
+.project-header {
+    position: relative;
+    top: 85px;
+    left: 60px;
 }
