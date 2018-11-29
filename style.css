@@ -325,8 +325,8 @@ input {
 }
 
 .container {
-    max-width: 90% !important;
-}
+    max-width: 95% !important;
+ }
 
 .mid-vertical {
     display: flex;
@@ -357,7 +357,8 @@ input {
     border-radius: 20px;
     box-shadow: 0 2px 4px 0 rgba(7, 61, 125, 0.1);
     background-color: rgba(7, 61, 125, 0.1);
-    object-fit: contain;
+    position: relative;
+    top:-30px;
 }
 
 .Total-Hours {
@@ -398,8 +399,9 @@ input {
     letter-spacing: normal;
     color: #6782a4;
     position: relative;
-    left: -18px;
-    top: 20px;
+    top: 15px;
+    left: -15px;
+    float: left;
 }
 
 .Non-Billable-Hours {
@@ -413,8 +415,10 @@ input {
     line-height: normal;
     letter-spacing: normal;
     color: #6782a4;
-    left: -18px;
-    top: 20px;
+    float: left;
+    position: relative;
+    left:-18px;
+    top: 25px;
 }
 
 .Line {
@@ -422,6 +426,7 @@ input {
     height: 119.5px;
     background-color: #c4d2dd;
     float: right;
+    max-width: 1px !important;
 }
 
 .Nums {
@@ -437,7 +442,8 @@ input {
     text-align: right;
     color: #073d7d;
     position: relative;
-    top: 20px;
+    top: 12px;
+    left: 35px;
 }
 
 .Nums2 {
@@ -453,15 +459,16 @@ input {
     text-align: right;
     color: #073d7d;
     position: relative;
-    top: 20px;
+    top: 22px;
 }
 
 .cont {
     position: relative;
-    left: 40px;
+    left: 20px;
+    top:-25px;
 }
 
-.Remaining-Budget-22 {
+.Remaining-Budget{
     width: 152px;
     height: 34px;
     font-family: ProximaNova;
@@ -472,6 +479,9 @@ input {
     line-height: 2.43;
     letter-spacing: normal;
     color: #6782a4;
+    position: relative;
+    left:-35px;
+    
 }
 
 .text-style-1 {
@@ -500,6 +510,10 @@ input {
     height: 36px;
     border-radius: 100px;
     background-color: #ffffff;
+    position: relative;
+    top: -35px;
+    left:100px;
+    
 }
 
 .InvoiceButton {
@@ -509,7 +523,7 @@ input {
     background-color: #ffffff;
     position: relative;
     top: 20px;
-    left: 30px;
+    left: -30px;
 }
 
 .Page-1 {
@@ -536,11 +550,146 @@ input {
 
 .Chart {
     height: 343px;
-    object-fit: contain;
+    object-fit: fill;
     width: 100%;
-}
+ }
 
 .chart-pad {
     margin-left: -10px;
     padding: 20px 0;
 }
+.Billable-Amount {
+    width: 111px;
+    height: 20px;
+    font-family: ProximaNova;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #6782a4;
+    position: relative;
+    float: left;
+    top:20px;
+    left:-10px;
+  }
+  .Billable-Expenses {
+    width: 143px;
+    height: 20px;
+    font-family: ProximaNova;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color:#6782a4;
+    position: relative;
+    float: left;
+    top:30px;
+    left:-25px;
+  }
+  .Budget {
+    width: 51px;
+    height: 20px;
+    font-family: ProximaNova;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #6782a4;
+    float: left;
+    position: relative;
+    top: 35px;
+    left: -20px;
+  }
+  .Costs {
+    width: 35px;
+    height: 34px;
+    font-family: ProximaNova;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.43;
+    letter-spacing: normal;
+    color: #6782a4;
+    position: relative;
+  }
+  .Uninvoiced-Amount {
+    width: 121px;
+    height: 34px;
+    font-family: ProximaNova;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.43;
+    letter-spacing: normal;
+    color: #6782a4;
+    position: relative;
+    left: -5px;
+  }
+  .Nums3 {
+    width: 53px;
+    height: 20px;
+    font-family: ProximaNova;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #073d7d;
+    position: relative;
+    top: 30px;
+    left: 120px;
+  }
+  .NumbersCost {
+    width: 145px;
+    height: 34px;
+    font-family: ProximaNova;
+    font-size: 28px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    color: #459ef6;
+    position: relative;
+    
+  }
+  .NumsAmount {
+    width: 79px;
+    height: 20px;
+    font-family: ProximaNova;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #073d7d;
+    position: relative;
+    top: 15px;
+  }
+  .NumsExpenses {
+    width: 44px;
+    height: 20px;
+    font-family: ProximaNova;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #073d7d;
+    position: relative;
+    top:25px;
+  }
